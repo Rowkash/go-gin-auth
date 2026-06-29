@@ -1,0 +1,44 @@
+# Environment variables
+.env
+.env.*
+.*.env
+!.env.example
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of go id, Workspace file, and test binaries
+*.test
+*.prof
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Dev tools (eg air)
+tmp/
